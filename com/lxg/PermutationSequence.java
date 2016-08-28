@@ -1,10 +1,10 @@
-package com.company;
+package com.lxg;
 
 /**
  * Created by lxg on 2016/8/28.
  *
  */
-public class Solution {
+public class PermutationSequence {
 
     public String getPermutation(int n, int k) {
         initNumUsed(n);
