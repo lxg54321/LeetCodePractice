@@ -3,7 +3,10 @@ package com.lxg;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(new NimGame().canWinNim(4));
+        int[] numbers = {100, 100, 71};
+        int target = 49;
+        float result = new TestSmart().calculateB(numbers, target);
+        System.out.println(result);
     }
 
 }
