@@ -1,12 +1,15 @@
 package com.lxg;
 
+import com.lxg.Common.ListNode;
+
 public class Main {
 
     public static void main(String[] args) {
-        int[] numbers = {100, 100, 71};
-        int target = 49;
-        float result = new TestSmart().calculateB(numbers, target);
-        System.out.println(result);
+        int[] nums = {1, 2, 3, 4};
+        int[] results = new ProductOfArrayExceptSelf().productExceptSelf(nums);
+        for(int res : results){
+            System.out.println(res);
+        }
     }
 
 }
